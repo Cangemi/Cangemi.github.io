@@ -1,0 +1,42 @@
+.sinopse{
+    width: 100%;
+    height: 100%;
+    margin-bottom: 10%;
+
+}
+
+.cartaz{
+    float: left;
+    width: 45%;
+    height: 100%;
+}
+
+.filme{
+    width: auto;
+    height: 720;
+    border: solid blue 2px;
+    margin-top: 5%;
+    margin-left: 5%;
+    float: left;
+}
+
+.textoFilme{
+    float: right;
+    width: 55%;
+    height: 100%;
+}
+
+#ticket{
+    border: solid 1px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    border-radius: 5px;
+    transition: 1s;
+}
+
+#ticket:hover{
+    background-color: yellow;
+    color:blue;
+}

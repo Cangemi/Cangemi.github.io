@@ -1,0 +1,72 @@
+
+.menu1
+{
+display: inline;
+}
+
+#menu
+{
+display: inline;
+}
+
+section
+{
+  width: auto;
+}
+.section2
+{
+    
+  width: auto;
+}
+
+.lin
+{
+    border-top: solid rgb(0, 0, 0) 3px;
+    background-color: white;
+    margin: 50px;
+    padding: 80px;
+    text-align: justify;
+    font-weight: bold;
+    font-size: 19px;
+}
+.font{
+  font-size: 21px;
+  word-spacing: 195px;
+}
+.font2
+{
+  font-size: 13px; 
+  word-spacing: 150px;
+}
+.font3
+{
+  font-size: 13px; 
+  word-spacing: 185px;
+}
+.font4
+{
+  font-size: 13px; 
+  word-spacing: 215px;
+}
+.font5
+{
+  font-size: 13px; 
+  word-spacing: 216px;
+}
+
+#btnDay{
+  border: solid 1px;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1%;
+  transition: all 0.5s;
+  cursor: pointer;
+  font-weight: bold;
+  background-color: rgb(209,209,209);
+  
+}
+
+#btnDay:hover{
+  -webkit-transform: scale(1.2);
+  transform: scale(1.2);
+}

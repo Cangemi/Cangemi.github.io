@@ -1,0 +1,143 @@
+#wall{
+    display: inline;
+    margin-left: 2%;
+}
+
+.carrossel{
+    width: auto;
+    text-align: center;
+    display: none;
+}
+
+.carrossel:target{
+    display: block;
+}
+
+.carrossel-box{
+    width: auto;
+    text-align: center;
+    margin-top: 5%;
+    padding-bottom: 7%;
+}
+
+.titulo{
+    
+width: 100%;
+text-align: center;
+}   
+
+#image{
+    padding-bottom: 250%;
+    padding-top: 250%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#image:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+#image2{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+#image2:hover{
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+
+button{
+    background-color:rgb(209,209,209);
+    border: none;
+    outline: none;
+}
+
+.snack{
+    padding-bottom: 10%;
+    background-color:rgb(116, 2, 2);
+    padding-bottom: 30%;
+}
+
+.pipoca{
+    float: left;
+    width: 50%;
+}
+.textoPipoca{
+    float: right;
+    width: 50%;
+}
+
+#textoSnack{
+    margin-right: 10%;
+}
+
+#encomendar{
+    margin-top: 5%;
+    background-color: yellow;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    padding-left: 20%;
+    padding-right: 20%;
+    border: solid;
+    border-radius: 10%;
+    font-size: 40;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#encomendar:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+    
+}
+
+.gradeHorarios{
+    width: auto;
+    height: fit-content;
+    
+}
+
+.tableTime{
+    padding-top: 5%;
+    width: auto;
+    text-align: center;
+}
+#itemTable{
+    display: inline;
+}
+
+#btnDay{
+    border: solid 1px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    margin-left: 5%;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+#btnDay:hover{
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
+#listaHorarios{
+    width: 800px;
+    height: 400px;
+    background-color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-bottom: 5%;
+    padding: 3%;
+    box-shadow: dimgrey;
+    overflow: scroll;
+}
+
+#btnTicket{
+    background-color: gainsboro;
+}
+
+#btnTicket:hover{
+    background-color: gray;
+}

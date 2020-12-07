@@ -1,0 +1,136 @@
+<html>
+
+<head>
+    <link rel="stylesheet" type ="text/css" href = "./CSS/main.css">
+    <link rel="stylesheet" type ="text/css" href = "./CSS/home.css">
+    <script type="text/javascript" src="JS/ajax.js"></script>
+    <script type="text/javascript" src="js/codigo.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Titulo da page</title>
+</head>
+<body>
+    <header class ="menu-principal">
+        <main>
+            <div class = "header-1">
+                <div class="logo">
+                    <img src= "./Img/logoCine.png" width=" 200px" height="150px">
+                </div>
+                <div class ="pesquisa">
+                    
+                    <input type="text" id="txtpesquisa" placeholder="Pesquisar...">
+
+                </div>           
+            </div>              
+        </main>
+    </header>
+    <div class="inicio">
+        <ul>
+            <li id="botoes">
+                <a href="index.html"><button class="press button2" type="button">Iniciar</button></a>
+            </li>
+            <li id="botoes">
+                <a href="ticket.html"><button class="press button2" type="button">Ingressos</button></a>
+            </li>
+            <li id="botoes">
+                <a href="Bar.html"><button class="press button2" type="button">Snack Bar</button></a>
+            </li>
+            <li id="botoes">
+                <a href="#carrossel"><button class="press button2" type="button">Filmes</button></a>
+            </li>
+        </ul>
+    </div> 
+<section>
+    <div class= "carrossel-box">
+        <h1 class="Titulo">Filmes em cartaz</h1>
+        <ul class="carrossel" id="carrossel">
+            <li class=" volta" id="wall">
+                <a href="#carrossel-2"><button><img  id="image" src="./Img/iconfinder_arrow_left2_1814084.png"width="50px" height="50px"></button></a>
+            </li>
+            <li class="wall-1" id="wall">
+                <a href="filme1.html"><button><img id="image2"src="./Img/Filme1.jpg" alt="Homem Libelula" width=" 240px" height="320px"></button></a>
+            </li>
+            <li class="wall-2" id="wall">
+                <a href="filme2.html"><button><img id="image2"src="./Img/Filme2.jpg" alt="Filme Blade runner" width=" 240px" height="320px"></button></a>
+            </li>
+            <li class="wall-3" id="wall">
+                <a href="filme3.html"><button><img id="image2" src="./Img/Filme3.jpg" alt="Filme Batman" width=" 240px" height="320px"></button></a>
+            </li>
+            <li class="avançar" id="wall">
+                <a href="#carrossel-2"><button><img id="image" src="./Img/iconfinder_arrow_right2_1814086.png"width="50px" height="50px"></button></a>
+            </li>
+        </ul>
+        <ul class="carrossel" id="carrossel-2">
+            <li class="btn volta"id="wall">
+                <a href="#carrossel"><button><img id="image" src="./Img/iconfinder_arrow_left2_1814084.png"width="50px" height="50px"></button></a>
+            </li>
+            <li class="wall wall-4" id="wall">
+                <a href="filme4.html"><button><img id="image2" src="./Img/Filme4.jpg" alt="Filme Rei Leão" width=" 240px" height="320px"></button></a>
+            </li>
+            <li class="wall wall-5" id="wall">
+                <a href="filme5.html"><button><img id="image2" src="./Img/Filme5.jpg" alt="Filme Tenet" width=" 240px" height="320px"></button></a>
+            </li>
+            <li class="wall wall-6" id="wall">
+                <a href="filme6.html"><button><img id="image2" src="./Img/Filme6.jpg" alt="Filme De volta para o futuro" width=" 240px" height="320px"></button></a>
+            </li>
+            <li class="btn avançar"id="wall">
+                <a href="#carrossel"><button><img id="image" src="./Img/iconfinder_arrow_right2_1814086.png" width="50px" height="50px"></button></a>
+            </li>
+        </ul>
+    </div>
+</section>
+<section class="Snack">
+    <div class="pipoca">
+        <img src="./Img/Pipoca.png"width="450px" height="450px">
+    </div>
+    <div class="textoPipoca">
+        <h1 style="color: yellow; font-size: 40;">Peça já seu combo!</h1>
+        <br><br>
+        <p id="textoSnack" style="color: yellow; font-size: 20;">Agora você pode aproveitar e pedir seu combo de pipoca caramelizada diretamente pelo nosso site
+            e retirar no Snack Bar, sem enfrentar fila e perder os trailers!
+        </p>
+        <a href="Bar.html"><button id="encomendar" type="button">Encomendar</button></a>
+    </div>
+</section>
+<section class="gradeHorarios">
+    <div class="tabelaHorarios">
+        <h1 style="width: auto; text-align: center; margin-top: 5%;">Horários</h1>
+        <ul class="tableTime">
+            <li id="itemTable">
+                <a onclick="requisicao('segunda.html','listaHorarios')"><button id="btnDay" type="button">Segunda</button></a>  
+            </li>
+            <li id="itemTable">
+                <a onclick="requisicao('terca.html','listaHorarios')"><button id="btnDay" type="button">Terça</button></a>
+            </li>
+            <li id="itemTable">
+                <a onclick="requisicao('quarta.html','listaHorarios')"><button id="btnDay" type="button">Quarta</button></a>
+            </li>
+            <li id="itemTable">
+                <a onclick="requisicao('quinta.html','listaHorarios')"><button id="btnDay" type="button">Quinta</button></a>
+            </li>
+            <li id="itemTable">
+                <a onclick="requisicao('sexta.html','listaHorarios')"><button id="btnDay" type="button">Sexta</button></a>
+            </li>
+            <li id="itemTable">
+                <a  onclick="requisicao('sabado.html','listaHorarios')"><button id="btnDay" type="button">Sabado</button></a>
+            </li>
+            <li id="itemTable">
+                <a onclick="requisicao('domingo.html','listaHorarios')"><button id="btnDay" type="button">Domingo</button></a>
+            </li>
+
+        </ul>
+        <div id="listaHorarios"></div>
+    </div>
+</section>
+<footer>
+    <div class="rodape">
+        <br> <br> <br>
+        <h5 style="color: white; text-align: center;">
+            Desenvolvido por Pedro Cangemi , Otavio Oliveira e Samuel Arantes
+        </h5>
+    </div>
+</footer>
+
+</body>
+
+</html>
